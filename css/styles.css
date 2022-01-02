@@ -1,0 +1,71 @@
+/* Global */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-primary: #e5e5e5;
+  --background-secondary: #f5f4fa;
+  --background-footer: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.active {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-footer);
+}
+
+.footer .logo.link {
+  color: var(--white-text-color);
+}
+.footer .link {
+  color: var(--footer-link-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--white-text-color);
+}
