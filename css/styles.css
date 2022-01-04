@@ -180,6 +180,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.footer .link.geo {
+  color: var(--white-text-color);
+}
+
 .footer .link:hover,
 .footer .link:focus {
   color: var(--white-text-color);
